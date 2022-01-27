@@ -4,6 +4,6 @@ stages:
     deps:
       - src/stage_01_load_save.py
       - src/utils/all_utils.py
-      - congif/config.yaml
+      - config/config.yaml
     outs:
       - artifacts/raw_local_dir/data.csv
