@@ -18,7 +18,5 @@ setup(
         "dvc",
         "pandas",
         "scikit-learn"
-    ]
-
-    
+    ] 
 )
