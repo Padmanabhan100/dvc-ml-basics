@@ -31,8 +31,8 @@ def split_and_save(config_path,params_path):
     create_directory([os.path.join(artifacts_dir,split_data_dir)])
 
     # path for train and test data
-    train_data_filename = config['artifacts']['train_data']
-    test_data_filename = config['artifacts']['test_data']
+    train_data_filename = config['artifacts']['train']
+    test_data_filename = config['artifacts']['test']
 
     # train and tes datapath
     train_data_path = os.path.join(artifacts_dir,split_data_dir,train_data_filename)
