@@ -18,5 +18,6 @@ stages:
      - base.random_state
      - base.test_size
     outs:
-      - artifacts/raw_local_dir/data.csv
+      - artifacts/split_data_dir/train.csv
+      - artifacts/split_data_dir/test.csv
 
