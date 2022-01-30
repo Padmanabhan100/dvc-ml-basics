@@ -16,7 +16,7 @@ def split_and_save(config_path,params_path):
 
     raw_local_dir_path = os.path.join(artifacts_dir,raw_local_dir,raw_local_file)
 
-    df = pd.read_csv(raw_local_dir_path, sep=";")
+    df = pd.read_csv(raw_local_dir_path, sep=",")
 
     # get params from parama.yaml
     split_ratio = params['base']['test_size']
